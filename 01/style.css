@@ -1,0 +1,364 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --cor1:#FAFAFA;
+    --cor2:#ececf4;
+    --cor3:#444444;
+    --cor4:#7D28F7;
+    --cor5:#1ABB59;
+    --cor6:rgb(52, 58, 64, 0.8);
+
+    --fontpadrao:'Roboto', sans-serif;
+    
+}
+
+body {
+    background-color: var(--cor2);
+    margin: 0;
+}
+
+
+/*------------------------------------------------------------------*/
+
+header {
+    min-width: 320px;
+    max-width: 1366px;
+    width: 100%;
+    height: 61px;
+    background-color: #7D28F7;
+    margin: auto;
+}
+
+h1 > img {
+    width: 155px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 8px;
+}
+
+/*------------------------------------------------------------------*/
+
+main {
+    min-width: 320px;
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main > h2 {
+    min-width: 320px;
+    max-width: 1366px;
+    width: 100%;
+    font-family: var(--fontpadrao);
+    font-size: 32px;
+    font-weight: 900;
+    color:var(--cor3);
+
+    margin: 75px 895px 42px 38px;
+}
+
+.boxseleçao {
+    width: 1275px;
+    height: 158px;
+    margin: 0px 45px 0px 46px;
+    border: solid transparent;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+
+    font-family: var(--fontpadrao);
+    color: #444444;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.boxseleçao > h3 {
+    margin: 33px 700px 16px 34px;
+    font-weight: 900;
+}
+
+.boxseleçao > select {
+    width: 300px;
+    height: 50px;
+    margin: 0px 25px 38px 36px;
+    padding: 0px 0px 0px 20px;
+
+    background-color: var(--cor1);
+    border: solid var(--cor2) 1px;
+    border-radius: 5px;
+}
+
+.boxseleçao > button {
+    width: 187px;
+    height: 39px;
+    background-color: var(--cor4);
+    border-radius: 30px;
+    border: transparent;
+    margin-right: 5px;
+
+    color: var(--cor1);
+    font-family: var(--fontpadrao);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+/*Box com a card de foto e descrição do veículo */
+
+.containtermain {
+    display: flex;
+}
+
+.boxfoto {
+    background-color: var(--cor1);
+    width: 300px;
+    height: 343px;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.26);
+
+    margin: 84px 28px 148px 55px;
+    display: inline-block;   
+}
+
+.cidade {
+    position: relative;
+    font-family: var(--fontpadrao);
+    font-size: 14px;
+    margin: -48px 0 0 0;
+    background-color: var(--cor2);
+    padding: 2px 0 0 2px;
+
+    color: var(--cor3);
+
+    width: 131px;
+    height: 26px;
+    border-radius: 0px 16px 16px 0px;
+
+}
+
+.namecar {
+    font-family: var(--fontpadrao);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 32px 101px 8px 15px;
+    color: var(--cor3);
+}
+
+.infocar {
+    font-family: var(--fontpadrao);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 8px 17px 17px 15px;
+
+    color: var(--cor3);
+}
+
+.caricones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    font-family: var(--fontpadrao);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--cor3);
+}
+
+.avista {
+    margin: 10px 22px 17px 15px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+
+    font-family: var(--fontpadrao);
+    color: var(--cor3);
+}
+
+/*------------------------------------------------------------------*/
+
+.boxparcela {
+    width: 945px;
+    height: 343px;
+    margin: 84px 0px 0px 0px;
+    padding-left: 36px;
+
+    background-color: var(--cor1);
+}
+
+.simulados {
+    font-family: var(--fontpadrao);
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--cor3);
+
+    width: 259px;
+    margin: 27px 653px 36px 0px;
+}
+
+.parcelacentral {
+    width: 339px;
+    height: 77px;
+    padding-top: 1px;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.parcelasmais {
+    width: 162px;
+    height: 77px;
+    display: inline-block;
+    
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    margin: 8px 13px 20px 0px;
+}
+
+.vezes {
+    font-family: var(--fontpadrao);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--cor3);
+    margin: 16px 0 0 16px;
+}
+
+.valorp {
+    font-family: var(--fontpadrao);
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--cor4);
+
+    margin: 0 0 13px 16px;
+}
+
+.ipva {
+    width: 101px;
+    height: 24px;
+    background-color: var(--cor4);
+    border-radius: 16px 0px 0px 16px ;
+    border: transparent;
+    color: var(--cor1);
+    font-family: var(--fontpadrao);
+    font-size: 14px;
+    color: var(--cor1);
+    font-weight: 700;
+    position: absolute;
+    margin: -40px 0px 0px 239px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.consultor {
+    width: 247px;
+    height: 40px;
+    background-color: #25D366;
+    border-radius: 50px;
+    border: transparent;
+    font-family: var(--fontpadrao);
+    color: var(--cor1);
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contato > p {
+    font-family: var(--fontpadrao);
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--cor3);
+}
+
+/*------------------------------------------------------------------*/
+
+footer {
+    min-width: 320px;
+    max-width: 1366px;
+    width: 100%;
+    height: 264.35px;
+    background-color: var(--cor6);
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+
+    font-family: var(--fontpadrao);
+    color: var(--cor1);
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.boxfooter {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 40px;
+}
+
+.botaof {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor1);
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.telbotao {
+    width: 128px;
+    height: 42.47px;
+    margin-right: 18px;
+    background-color: var(--cor4);
+    color: var(--cor1);
+    font-weight: 700;
+    border-radius: 4px;
+    border: transparent;
+}
+
+.wpp {
+    width: 18px;
+    height: 18px;
+}
+
+.botaowpp {
+    width: 40px;
+    height: 42.47px;
+    background-color: #25D366;
+    border-radius: 4px;
+    border: transparent;
+}
+
+.botaoatendimento {
+    width: 40px;
+    height: 42.47px;
+    background-color: var(--cor4);
+    border-radius: 4px;
+    border: transparent;
+    margin-right: 5px;
+}
+
+main.corpo {
+    margin: 0 auto;
+}
